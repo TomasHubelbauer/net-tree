@@ -7,6 +7,7 @@ This package provides an algorithm for walking a set of items with a few IDs spe
 - Have one item reside in multiple superitems (multiple super IDs)
 - Collapse an item only for one superitem of its all superitems (items is expanded for just one parent and collapses there when expanded for another)
 - Handle items which contain themselves through any path
+- Handle items having an order number within their superitem
 
 I've started this project on GitLab previously: https://gitlab.com/TomasHubelbauer/net-tree/blob/master/src/index.ts
 
