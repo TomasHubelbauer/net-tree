@@ -19,8 +19,7 @@ See the [**online demo**](https://tomashubelbauer.github.io/net-tree/)
   - Either do this by an `order` property or using a `priorId` property
   - In any case this will have to differ across super IDs for shared items (shared moved last in first super, first in second super)
 
-I've started this project on GitLab previously: https://gitlab.com/TomasHubelbauer/net-tree/blob/master/src/index.ts
+[I've started this project on GitLab previously](https://gitlab.com/TomasHubelbauer/net-tree/),
+but I am starting again in plain JavaScript and will provide it as an ES module for use in my other project:
 
-But I am starting again in plain JavaScript and will provide it as an ES module for use in my other project:
-
-[Agendum](https://agendum.today)
+[**Agendum**](https://agendum.today)
