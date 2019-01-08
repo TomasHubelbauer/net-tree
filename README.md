@@ -18,6 +18,8 @@ See the [**online demo**](https://tomashubelbauer.github.io/net-tree/)
 - [ ] Handle items having an order number within their superitem
   - Either do this by an `order` property or using a `priorId` property
   - In any case this will have to differ across super IDs for shared items (shared moved last in first super, first in second super)
+- [ ] Set up a release pipeline when they are available through YAML: https://stackoverflow.com/a/52323336/2715716
+  - Until then do it in a build pipeline
 
 [I've started this project on GitLab previously](https://gitlab.com/TomasHubelbauer/net-tree/),
 but I am starting again in plain JavaScript and will provide it as an ES module for use in my other project:
