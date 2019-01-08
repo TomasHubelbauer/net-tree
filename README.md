@@ -6,7 +6,11 @@ This package provides an algorithm for walking a set of items with a few IDs spe
 - Expands an item with multiple superitems underneath the first or a given superitem
 - Providers information about the expansion status (expanded / collapsed) and its source (explicit - hyper ID map, implicitly - first super ID)
 
-TODO:
+See the [**online demo**](https://tomashubelbauer.github.io/net-tree/)
+
+# Contributing
+
+## Roadmap
 
 - [ ] Allow an item to be explicitly collapsed by using `undefined` or `null` hyper ID
 - [ ] Think about how to handle self-containing items reporting their status - want to be able to flash the first one in chain upon expanding a further one
