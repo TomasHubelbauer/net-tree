@@ -35,3 +35,8 @@ Use GitHub Actions actually...
 [I've started this project on GitLab previously](https://gitlab.com/TomasHubelbauer/net-tree/),
 but I am starting again in plain JavaScript and will provide it as an ES module for
 use in my other project, [**Agendum**](https://agendum.today)
+
+### Split into a Node library and a test application
+
+Put the test application in `test`, but serve GitHub Pages from root so that it can
+pull the module in root and use it.
